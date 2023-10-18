@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carousal{
+  max-height: 500px;
+}
+
+.caption-background {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (fourth value) for transparency */
+  padding: 10px; /* Add padding to the background for spacing */
+  border-radius: 5px; /* Add rounded corners for style */
+  color: white; /* Text color on the background */
+}
+
